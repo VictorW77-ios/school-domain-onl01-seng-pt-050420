@@ -4,8 +4,4 @@ class School
     @school = school 
   end
   
-  def initialize(roster)
-    @school = roster
-  end
-  
 end
