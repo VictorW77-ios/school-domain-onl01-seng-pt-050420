@@ -17,7 +17,7 @@ class School
   
   def sort(students)
     students = {} # I assume we're being asked to iterate over a hash
-    @roster.each do |
+    @roster.each do |student_name, grade|
   end
   
 end
