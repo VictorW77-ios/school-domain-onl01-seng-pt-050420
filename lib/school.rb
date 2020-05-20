@@ -1,6 +1,6 @@
 class School
   
-  def school 
+  def initialize(school,roster)
     @school = school 
   end
   
