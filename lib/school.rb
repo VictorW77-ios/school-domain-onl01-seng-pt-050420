@@ -18,7 +18,8 @@ class School
   def sort
     sorted_array = {}     # I assume we're being asked to iterate over a hash
     @roster.each do |grade, student_name|
-      sorted_array[grade] = student_name.sort
+      sorted_array[grade] = student_name.sort     
+      # '.sort' bc we want the array to be in alphabetical order
     end
   
     sorted_array     #always gotta call it!
