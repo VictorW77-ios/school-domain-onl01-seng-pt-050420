@@ -4,6 +4,6 @@ class School
     @school_name = name
   end
   
-  @school = School.new
+  @school_name = School.new
   
 end
