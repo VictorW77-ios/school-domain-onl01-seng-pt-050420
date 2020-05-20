@@ -13,7 +13,6 @@ class School
   
   def grade(class_grade)
     @roaster[class_grade]
-    
   end
   
 end
