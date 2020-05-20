@@ -1,4 +1,4 @@
 class School # code here!
-  def school = (new_school)
-    @
+  def name= (new_school)
+    @school = new_school 
 end
