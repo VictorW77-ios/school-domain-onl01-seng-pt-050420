@@ -2,8 +2,8 @@ class School
   
   def school(name)
     @school_name = name
+    @roster = {}
   end
   
-  @school_name = School.new
   
 end
