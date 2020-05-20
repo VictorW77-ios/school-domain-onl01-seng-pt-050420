@@ -7,7 +7,7 @@ class School
   end
   
   def add_student(name,grade)
-    @roster[grade] ||= [] 
+    @roster[grade] ||= [] # double pipe operator bc "If any of the two operands are non zero, then the condition becomes true."
     @roster[grade] << name
   end
   
@@ -16,7 +16,7 @@ class School
   end
   
   def sort(students)
-    students = {}       # I assume we're being asked to iterate over a hash
+    students = {}     # I assume we're being asked to iterate over a hash
     @roster.each do |student_name, grade|
   end
   
