@@ -1,8 +1,8 @@
 class School
   attr_accessor :name
   
-  def school 
-    @school = school 
+  def school(name)
+    @name = school
   end
   
   @school = School.new
