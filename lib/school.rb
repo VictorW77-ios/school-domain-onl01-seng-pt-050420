@@ -22,5 +22,6 @@ class School
   end
   
     students      #always gotta call it!
+  end
   
 end
