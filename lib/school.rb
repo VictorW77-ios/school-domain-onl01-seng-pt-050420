@@ -1,9 +1,9 @@
 class School
-  @school = School.new
   
-  def school(roster)
-    roster = { 
-    }
+  def school 
+    @school = school 
   end
+  
+  @school = School.new
   
 end
