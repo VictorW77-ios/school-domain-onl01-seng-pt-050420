@@ -16,12 +16,12 @@ class School
   end
   
   def sort
-    students = {}     # I assume we're being asked to iterate over a hash
-    @roster.each do |, grade, student_name|
-      students[grade] = student_name.sort
+    sorted_array = {}     # I assume we're being asked to iterate over a hash
+    @roster.each do |grade, student_name|
+      sorted_array[grade] = student_name.sort
     end
   
-    students      #always gotta call it!
+    sorted_array     #always gotta call it!
     
   end
   
