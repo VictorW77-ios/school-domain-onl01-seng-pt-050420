@@ -1,9 +1,7 @@
-class School # code here!
-
-  roster = []
+class School
   
-  def initialize(school_roster)
-    @school = school 
+  def initialize(roster)
+    @school = roster
   end
   
 end
