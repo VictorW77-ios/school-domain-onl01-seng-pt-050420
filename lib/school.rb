@@ -16,8 +16,8 @@ class School
   end
   
   def sort(students)
-    students = []
-    @roster :
+    students = {} # I assume we're being asked to iterate over a hash
+    @roster.each do |
   end
   
 end
