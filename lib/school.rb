@@ -20,6 +20,7 @@ class School
     @roster.each do |student_name, grade|
     students[grade] = students.sorted_list
   end
-    students #always gotta call it!
+  
+    students      #always gotta call it!
   
 end
